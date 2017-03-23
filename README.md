@@ -1,6 +1,7 @@
 # Marvel-Adventures
 An adventure game with marvel characters.
-1 Player
+
+1 Player game.
 Instructions on how to play the game will be displayed when program is executed.
 
 To open the Game, Eclipse can be used
