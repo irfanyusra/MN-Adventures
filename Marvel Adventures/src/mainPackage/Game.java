@@ -1,11 +1,8 @@
 /**
  *The "Game" class.
- *Instructor: Mr. Sayed
- *Assignment Name: Game - Final Project 
- *Class: ICS 4U0-B
  *@Author Yusra Irfan 
  *@Version 1.4 
- *Date of Submission: 16th June 2016
+ *Date: 16th June 2016
  *Purpose: This code is for a game, the game is like 'Mario' with 'Marvel' characters. The objective of the game is to collect coins, clear levels 
 	and beat the boss enemy. This game has four levels, power ups, coins, enemies, secret levels and more.
  *References
