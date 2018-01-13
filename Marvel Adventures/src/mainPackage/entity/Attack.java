@@ -2,7 +2,7 @@
 *The "Attack" class.
 *@Author Yusra Irfan 
 *@Version 1.4 
-*Date of Submission: 16th June 2016
+*Date: 16th June 2016
  */
 
 package mainPackage.entity;
