@@ -1,8 +1,5 @@
 /**
 *The "Player" class.
-*Instructor: Mr. Sayed
-*Assignment Name: Game - Final Project 
-*Class: ICS 4U0-B
 *@Author Yusra Irfan 
 *@Version 1.4 
 *Date of Submission: 16th June 2016
