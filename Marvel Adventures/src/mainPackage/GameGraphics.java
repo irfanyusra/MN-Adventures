@@ -1,8 +1,11 @@
 /**
 *The "GameGraphics" class.
+*Instructor: Mr. Sayed
+*Assignment Name: Game - Final Project 
+*Class: ICS 4U0-B
 *@Author Yusra Irfan 
 *@Version 1.4 
-*Date: 16th June 2016
+*Date of Submission: 16th June 2016
  */
 package mainPackage;
 
@@ -73,16 +76,16 @@ public class GameGraphics  {
 		if (Game.isMenuS()){//Menu Screen is true
 			g.setColor(Color.WHITE);
 			g.setFont(font1);//setting Font
-			g.drawString("MENU", (Game.getFrameWidth()/2)-70,200 );
+			g.drawString("MENU", (Game.getFrameWidth()/2)-85,(Game.getFrameHeight()/3)-50 );
 
-			g.drawRect(450, 250, 200, 70);//for play
-			g.drawRect(450, 350, 200, 70);//for help
-			g.drawRect(450, 450, 200, 70);//for quit
+			g.drawRect(2*(Game.getFrameWidth())/5, Game.getFrameHeight()/3, 200, 70);//for play
+			g.drawRect(2*(Game.getFrameWidth())/5, (Game.getFrameHeight()/3)+100, 200, 70);//for help
+			g.drawRect(2*(Game.getFrameWidth())/5, (Game.getFrameHeight()/3)+200, 200, 70);//for quit
 
 			g.setFont(font2);//setting Font
-			g.drawString("PLAY", 500,295 );
-			g.drawString("HELP",500,395 );
-			g.drawString("QUIT", 500,495 );
+			g.drawString("PLAY", (2*(Game.getFrameWidth())/5)+45,(Game.getFrameHeight()/3)+45);
+			g.drawString("HELP",(2*(Game.getFrameWidth())/5)+45,(Game.getFrameHeight()/3)+145 );
+			g.drawString("QUIT", (2*(Game.getFrameWidth())/5)+45,(Game.getFrameHeight()/3)+245 );
 		}
 
 		else if (Game.isHelp()){//Help Screen is true
