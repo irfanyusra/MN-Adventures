@@ -1,5 +1,5 @@
 # MN-Adventures
-An adventure game with Marvel and Nintendocharacters.
+An adventure game with Marvel and Nintendo characters.
 
 1 Player game.
 Instructions on how to play the game will be displayed when program is executed.
