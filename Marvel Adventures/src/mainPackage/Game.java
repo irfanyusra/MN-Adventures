@@ -93,8 +93,8 @@ public class Game extends Canvas implements Runnable{
 	public void init(){
 		//initializing objects 
 		map= new Map();
-		sheet = new SpriteSheet("/sprite.png");
-		sheetE=new SpriteSheet("/enemyS.png");
+		sheet = new SpriteSheet("../sprite.png");
+		sheetE=new SpriteSheet("../enemyS.png");
 
 		cam = new Camera ();
 		gameG = new GameGraphics ();
